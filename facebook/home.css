@@ -1,0 +1,368 @@
+body{
+    margin: 0;
+    background-color: rgb(238, 235, 235);
+}
+
+.header-left img{
+    height: 50px;
+    border-radius: 100%;
+}
+
+.user-photo{
+    height: 50px;
+    border-radius: 100%;
+}
+
+.header{
+    background-color: white;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.header-input{
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+}
+.header-input input{
+    border: none;
+    background-color: transparent;
+    outline-width: 10px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-middle{
+    display: flex;
+    justify-content: center;
+    padding: 0 30px;
+}
+
+.header-option .material-icons{
+    font-size: xx-large;
+    color: rgb(81, 87, 94);
+
+}
+
+.header-option:hover .material-icons{
+    color: rgb(94, 94, 231) ;
+}
+
+.header-option{
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    cursor: pointer;
+}
+
+.header-option.active .material-icons{
+    color: rgb(94, 94, 231) ;
+}
+
+.header-option.active{
+    border-bottom: 3px solid rgb(94, 94, 231) ;;
+
+}
+
+.header-option:hover{
+    background-color: rgb(226, 219, 211);
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.header-info{
+    display: flex;
+    align-items: center;
+
+}
+.header-info h3{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.right-icon .material-icons{
+    color: gray;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.right-icon:hover .material-icons{
+    color: rgb(126, 134, 243);
+    background-color: rgb(226, 219, 211);
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.side-body .side-row img{
+    height: 30px;
+}
+
+.side-body .side-row{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-style: normal;
+}
+h5{
+    padding-left: 20px;
+    font-style: normal;
+    font-family: sans-serif;
+}
+
+
+.story{
+    position: relative;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 150px;
+    box-shadow: 0px, 5px, 17px, -7px rgba(0, 0, 0, 0.75);
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.story:hover{
+    transform: scale(1.07);
+}
+
+.story h4{
+    color: white;
+    bottom: 10px;
+    left: 10px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.story-body{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.mainbody{
+    display: flex;
+}
+
+.center-body{
+    padding: 0 50px 100px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 70%;
+}
+
+.message-top{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    padding: 15px;
+
+}
+
+.message-top form{
+    flex: 1;
+    display: flex;
+}
+
+.message-top form input{
+    flex: 1;
+    outline-width: 0;
+    border: none;
+    padding: 15px 20px;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: whitesmoke;
+}
+
+.message-bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.message-centeroption{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin: 5px;
+}
+
+.message-centeroption h3{
+    font-size: medium;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.message-centeroption:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius:20px;
+}
+
+.post{
+    width: 70%;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+.post-image img{
+    width: 100%;
+}
+
+.post-top{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+}
+
+.post-photo{
+    margin-right: 10px;
+}
+
+.post-topinfo{
+    font-size: small;
+    color: gray;
+}
+
+.post-bottom{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 25px;
+}
+
+.post-option{
+    padding-top: 10px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.post-option{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.post-option p{
+    margin-left: 10px;
+}
+
+.post-icon{
+    display: flex;
+    align-items: center;
+}
+
+.post-option .post-icon:hover{
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+.post-icon .material-icons{
+    padding-left: 10px;
+}
+
+.right-top{
+    padding: 10;
+}
+
+.right-body .headline{
+    font-family: Arial, Helvetica, sans-serif;
+    font: xx-large;
+    color: rgb(85, 84, 84);
+}
+
+.add{
+    display: flex;
+}
+
+.add img{
+    height: 100px;
+    width: 140px;
+    padding: 10px 10px 10px 0;
+}
+
+.add p{
+    font-size: medium;
+}
+
+.right-center{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.contact-list{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+
+.contact-list h3{
+    font-style: inherit;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+.group-creation{
+    display: flex;
+    align-items: center;
+}
+
+.group-creation h3{
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+
+.side-body{
+    width: 20%;
+    height: 650px;
+    overflow-y: scroll;
+    
+}
+
+.final{
+    font-size: small;
+    color: gray;
+}
+
+.right-body{
+    width: 20%;
+    height: 650px;
+    overflow-y: scroll;
+}
